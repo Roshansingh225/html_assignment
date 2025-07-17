@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Website</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, section, footer { padding: 24px; margin: 0 auto; max-width: 800px; }
+        header { background: #f5f5f5; text-align: center; }
+        section { margin-top: 24px; }
+        img { max-width: 100%; height: auto; display: block; margin: 0 auto; }
+        table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+        th, td { border: 1px solid #333; padding: 8px; text-align: left; }
+        th { background: #eee; }
+        form { display: flex; flex-direction: column; gap: 12px; max-width: 400px; margin: 0 auto; }
+        input[type="text"], input[type="email"], input[type="tel"] { padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+        input[type="submit"] { background: #007bff; color: #fff; border: none; padding: 10px; border-radius: 4px; cursor: pointer; }
+        input[type="submit"]:hover { background: #0056b3; }
+        footer { background: #222; color: #fff; text-align: center; margin-top: 32px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Website!</h1>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>
+                Welcome to our website! We are dedicated to providing top-notch services to our valued customers. Our team is passionate about delivering quality and ensuring customer satisfaction. Whether you need professional advice, creative solutions, or reliable support, we are here to help. Explore our range of services and discover how we can assist you in achieving your goals. We believe in transparency, excellence, and building lasting relationships. Thank you for visiting our site, and we look forward to working with you!
+            </p>
+        </section>
+
+        <section id="image">
+            <h2>Our Team</h2>
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Team working together">
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Consulting</li>
+                <li>Web Development</li>
+                <li>Graphic Design</li>
+                <li>Technical Support</li>
+            </ul>
+        </section>
+
+        <section id="video">
+            <h2>Watch Our Introduction</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Hc0VxzPxMCc" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <section id="price-list">
+            <h2>Price List</h2>
+            <table>
+                <tr>
+                    <th>Service</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Consulting</td>
+                    <td>100 rs/hr</td>
+                </tr>
+                <tr>
+                    <td>Web Development</td>
+                    <td>150 rs/hr</td>
+                </tr>
+                <tr>
+                    <td>Graphic Design</td>
+                    <td>80 rs/hr</td>
+                </tr>
+                <tr>
+                    <td>Technical Support</td>
+                    <td>60 rs/hr</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contact-form">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact us at roushansinghlegend@gmail.com | 9905138225 | Sector 9, Bokaro, India</p>
+    </footer>
+</body>
+</html> 
